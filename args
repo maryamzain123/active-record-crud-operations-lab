@@ -1,0 +1,16 @@
+
+[1mFrom:[0m /home/maryamzain/development/code/mod2/active-record-crud-operations-lab/app/movies_controller.rb:34 Object#can_be_created_in_a_block:
+
+    [1;34m26[0m: [32mdef[0m [1;34mcan_be_created_in_a_block[0m(args)
+    [1;34m27[0m:   [1;34m# If no arguments are passed, use default values:[0m
+    [1;34m28[0m:   [1;34m# title == "Home Alone"[0m
+    [1;34m29[0m:   [1;34m# release_date == 1990[0m
+    [1;34m30[0m:   
+    [1;34m31[0m:   [1;34;4mMovie[0m.create [32mdo[0m |m|
+    [1;34m32[0m:     m.title = [31m[1;31m"[0m[31mHome Alone[1;31m"[0m[31m[0m
+    [1;34m33[0m:     m.release_date = [1;34m1990[0m
+ => [1;34m34[0m:     binding.pry
+    [1;34m35[0m:   
+    [1;34m36[0m:   [32mend[0m
+    [1;34m37[0m: [32mend[0m
+
